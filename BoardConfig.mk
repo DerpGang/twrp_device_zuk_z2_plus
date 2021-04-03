@@ -90,3 +90,9 @@ TW_HAS_EDL_MODE := true
 TW_USE_TOOLBOX := true
 TW_IGNORE_MISC_WIPE_DATA := true
 PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+
+# exFAT FS Support
+TW_INCLUDE_FUSE_EXFAT := true
+
+# NTFS Support
+TW_INCLUDE_FUSE_NTFS := true
